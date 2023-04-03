@@ -13,13 +13,11 @@ public class questions {
         System.out.println(c);
         System.out.println(name.equals(surname));
 
-
         System.out.println("Вопрос 3"); // return
         int x = sum(1, 2, 3);
         System.out.println(x);
         time(26);
         time(10);
-
     }
     static int sum(int z, int i, int v){
         return z+i+v;
@@ -31,7 +29,4 @@ public class questions {
             System.out.println("Day");
         else System.out.println("Night");
     }
-
-
-
 }
